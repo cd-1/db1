@@ -1,28 +1,41 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "CD 1"
-    },
-    {
-      "id": 2,
-      "title": "CD 2"
-    },
-    {
-      "id": 3,
-      "title": "CD 3"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    },
-    {
-      "id": 2,
-      "body": "some comment",
-      "postId": 1
-    }
-  ]
+   "commoon": {
+      "branding": {
+         "logo": "https://d3vncsohenrhbu.cloudfront.net/sites/default/files/CIGNEX-Datamatics-logo.png",
+         "tagLine": "Making Open Source Work"
+      },
+      "primaryMenu": [
+         {
+            "name": "About CD",
+            "url": "about"
+         },
+         {
+            "name": "What We Do",
+            "url": "services"
+         },
+         {
+            "name": "Our Work",
+            "url": "portfolio"
+         },
+         {
+            "name": "Let's Talk",
+            "url": "contact"
+         }
+      ],
+      "secondaryMenu": [
+         {
+            "name": "Trainings",
+            "url": "training"
+         },
+         {
+            "name": "Our clients",
+            "url": "clients"
+         },
+         {
+            "name": "Resources",
+            "url": "resources"
+         }
+      ]
+   },
+   "homePage": {}
 }
