@@ -1,41 +1,71 @@
 {
-   "common": {
-      "branding": {
-         "logo": "https://d3vncsohenrhbu.cloudfront.net/sites/default/files/CIGNEX-Datamatics-logo.png",
-         "tagLine": "Making Open Source Work"
+  "common": {
+    "siteHeader": {
+      "styling": {
+        "bgColor": "#fff",
+        "fgColor": "#000"
       },
-      "primaryMenu": [
-         {
-            "name": "About CD",
-            "url": "about"
-         },
-         {
-            "name": "What We Do",
-            "url": "services"
-         },
-         {
-            "name": "Our Work",
-            "url": "portfolio"
-         },
-         {
-            "name": "Let's Talk",
-            "url": "contact"
-         }
-      ],
-      "secondaryMenu": [
-         {
-            "name": "Trainings",
-            "url": "training"
-         },
-         {
-            "name": "Our clients",
-            "url": "clients"
-         },
-         {
-            "name": "Resources",
-            "url": "resources"
-         }
-      ]
-   },
-   "homePage": {}
+      "siteBranding": {
+        "imgCDNUrl": "//cignex.com/static/logo.png",
+        "imgInternalPath": "/src/img/logo.png",
+        "linkTo": "/",
+        "routeTo": "",
+        "accessibility": {
+          "alt": "CIGNEX",
+          "title": null
+        },
+        "imgWidth": "128px",
+        "imgHeight": null
+      },
+      "topNav": {
+        "styling": {
+          "bgColor": "#fff",
+          "fgColor": "#000",
+          "fgColorHover": "#32c5d2"
+        },
+        "enableSearch": true,
+        "links": [
+          {
+            "label": "Solutions",
+            "linkTo": "/solutions",
+            "routeTo": null,
+            "accessibility": {
+              
+            },
+            "hasSubNav": true,
+            "subNavs": [
+              {
+                
+              }
+            ]
+          },
+          {
+            "label": "Services",
+            "linkTo": "/services",
+            "routeTo": null
+          },
+          {
+            "label": "Trainings",
+            "linkTo": "/trainings",
+            "routeTo": null
+          },
+          {
+            "label": "Resources",
+            "linkTo": "/resources",
+            "routeTo": null
+          },
+          {
+            "label": "About Us",
+            "linkTo": "/about",
+            "routeTo": null
+          },
+          {
+            "label": "Contact Us",
+            "linkTo": "/contact",
+            "routeTo": null
+          }
+        ]
+      }
+    }
+  }
 }
