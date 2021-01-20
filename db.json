@@ -66,6 +66,58 @@
           }
         ]
       }
+    },
+    "siteFooter": {
+      "styling": {
+        "bgColor": "#5c6873",
+        "fgColor": "#fff"
+      },
+      "socialBar": {
+        "links": [
+          {
+            "iconClass": "fa fa-twitter",
+            "linkTo": "//twitter.com/CIGNEX"
+          },
+          {
+            "iconClass": "fa fa-youtube",
+            "linkTo": "//www.youtube.com/user/cignexglobal"
+          },
+          {
+            "iconClass": "fa fa-facebook",
+            "linkTo": "//www.facebook.com/CIGNEXTechnologies"
+          },
+          {
+            "iconClass": "fa fa-linkedin",
+            "linkTo": "//in.linkedin.com/company/cignex-datamatics"
+          },
+          {
+            "iconClass": "fa fa-instagram",
+            "linkTo": "//www.instagram.com/cignex.datamatics/?hl=en"
+          }
+        ]
+      },
+      "navLinks": [
+        {
+          "label": "Privacy Policy",
+          "linkTo": "/privacy",
+          "routeTo": null
+        },
+        {
+          "label": "Coockie Policy",
+          "linkTo": "/cookie",
+          "routeTo": null
+        },
+        {
+          "label": "Terms of Use",
+          "linkTo": "/terms",
+          "routeTo": null
+        },
+        {
+          "label": "Sitemap",
+          "linkTo": "/sitemap.xml",
+          "routeTo": null
+        }
+      ]
     }
   }
 }
